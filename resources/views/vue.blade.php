@@ -15,9 +15,7 @@
         <title>Laravel</title>
     </head>
     <body>
-        <div id = "app">
-            <example-component></example-component>
-        </div>
+        <div id = "app"></div>
     </body>
     <script src="{{ asset('js/app.js') }}"></script>
 </html>
