@@ -66,7 +66,7 @@
     $('#feedback').submit(function(event){
         event.preventDefault();
         $('.fa-spin').show();
-        $.post('/api/sendmail',$("#feedback").serialize(),function(data){
+        $.post('/api/sendmail/sqs',$("#feedback").serialize(),function(data){
             $('#feedback').hide();
             $('.success').show();
         })
